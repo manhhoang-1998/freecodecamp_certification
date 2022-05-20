@@ -1,0 +1,41 @@
+.header{
+    width: 100%;
+    height: 100px;
+    border: 10px solid black;
+    padding: 10px;
+    background-clip: border-box;
+    background-image:linear-gradient(90deg,rgba(0, 255, 132, 0.5), rgba(0,0,255,0.5)), url(https://www.clipartmax.com/png/full/262-2621616_post-pepe-emoji.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-origin: border-box;
+    background-position: center;
+}
+.header:hover{
+    background-color: rgba(255, 0, 119, 0.5);
+}
+.box{
+    background-color:#fff;
+    height: 100px;
+    width:100px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.box1{
+    background-color: #333;
+    padding: 5px 5px 5px ;
+    border: 5px violet;
+    border-style: groove;
+
+}
+.box2{
+    background-color: orange;
+}
+.box3{
+    background-color: firebrick;
+    padding: 10px 10px 10px;
+    border: 5px solid black;
+
+}
